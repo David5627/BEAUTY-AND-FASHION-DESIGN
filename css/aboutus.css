@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro');
+
+#about-us {
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#about-us article {
+    flex: 1;
+    padding: 10px 3vw 50px;
+    max-width: 980px;
+    margin: auto;
+    border: 20px solid white;
+    background-color: #FFF3d5;
+}
