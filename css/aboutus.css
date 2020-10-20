@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Abel|Great+Vibes|heebo:500');
 
 #about-us {
     display: flex;
@@ -17,3 +17,24 @@
     border: 20px solid white;
     background-color: #FFF3d5;
 }
+h2 {
+    font-family: 'heebo', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    max-width: 320px;
+    margin: 0 auto;
+    padding-top: 62px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    letter-spacing: .10em;
+}
+p{
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 2em;
+}
+
