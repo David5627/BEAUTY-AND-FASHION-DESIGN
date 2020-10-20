@@ -37,4 +37,28 @@ p{
     text-align: justify;
     text-indent: 2em;
 }
+#about-us figure {
+    flex: 1 auto;
+    text-align: center;
+    height: 560px;
+    margin: 0 auto;
+    background: url(../images/fashion1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* transition: background 1s ; */
+}
+#about-us figure:hover {
+    background: url(../images/fashion2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1 auto;
+    text-align: center;
+    height: 560px;
+    margin: 0 auto;
+}
+#about-us article{
+    margin: 1%;
+}
+
+
 
