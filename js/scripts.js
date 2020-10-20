@@ -11,17 +11,17 @@ function myButton(){
     const selectedCss =document.getElementById("children-shoe-size").value;
     const selectedAws = document.getElementById("Adult-wear-size").value;
     const selectedAss = document.getElementById("Adult-shoe-size").value;
-    const actualCws = parseInt(selectedCws);
-    const actualCss = parseInt(selectedCss);
-    const actualAws = parseInt(selectedAws);
-    const actualAss = parseInt(selectedAss)
+    const selectCws = parseInt(selectedCws);
+    const selectCss = parseInt(selectedCss);
+    const selectAws = parseInt(selectedAws);
+    const selectAss = parseInt(selectedAss)
 
-    console.log(actualCws);
-    console.log(actualCss);
-    console.log(actualAws);
-    console.log(actualAss);
+    console.log(selectCws);
+    console.log(selectCss);
+    console.log(selectAws);
+    console.log(selectAss);
 
-    const totalPrice = (actualCws + actualCss + actualAws + actualAss);
+    const totalPrice = (selectCws + selectCss + selectAws + selectAss);
     console.log(totalPrice);
 
     alert("your order of " + totalPrice + "  has been recieved.Your total amount is " + totalPrice + "")
