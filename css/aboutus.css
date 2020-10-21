@@ -40,7 +40,7 @@ h2 {
 #about-us figure {
     flex: 1 auto;
     text-align: center;
-    height: 600px;
+    height: 650px;
     margin: 0 auto;
     background: url(../images/fashion1.png);
     background-position: center;
@@ -53,7 +53,7 @@ h2 {
     background-position: center;
     flex: 1 auto;
     text-align: center;
-    height: 600px;
+    height: 650px;
     margin: 0 auto;
 }
 #about-us article{
