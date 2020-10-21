@@ -7,6 +7,7 @@
 
     alert(name + " Your feedback has been received and will reach out to you through" + email);
   };
+
 $(document).ready(function () {
     $("#final").click(function () {
         $("#me").hide();
@@ -55,7 +56,7 @@ $(document).ready(function () {
 
 });
 
-function myFunction(){
+function maFunction(){
     event.preventDefault();
     const selectCwf = document.getElementById("micah").value;
     const selectCwfs = document.getElementById("pist").value;
