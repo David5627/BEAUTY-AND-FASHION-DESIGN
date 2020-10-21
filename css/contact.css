@@ -41,3 +41,24 @@ nav{
             border-radius: 8px;
             border-color: red;
     }
+
+    nav ul li{
+        display: inline-block;
+        text-transform: uppercase;
+        margin-right: 20px;
+      margin-top: 20px;
+      text-align:center ;
+    
+    }
+    
+
+    #footer{
+        text-align: center;
+        padding-top: 2%;
+        background-color: burlywood;
+    }
+    body{
+        background-image: url("../images/contact.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
