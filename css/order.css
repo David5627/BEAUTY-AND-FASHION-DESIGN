@@ -4,6 +4,14 @@
 #us{
     display: none;
 }
-/* .we{
-    text-align: center;
-} */
+.we{
+    background-image: url("../images/order.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    color: aliceblue;
+}
+
+#delivery{
+    display: none;
+}
