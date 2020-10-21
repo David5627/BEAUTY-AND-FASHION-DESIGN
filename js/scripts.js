@@ -24,8 +24,45 @@ function myButton(){
     const totalPrice = (selectCws + selectCss + selectAws + selectAss);
     console.log(totalPrice);
 
-    alert("your order of " + totalPrice + "  has been recieved.Your total amount is " + totalPrice + "")
+    alert("your order of " + totalPrice + "  has been recieved. " + " .Please click ok to make delivery")
 
     
 }
 
+$(document).ready(function () {
+    $("#final-order").click(function () {
+        $("#us").hide();
+        $("#delivery").show();
+
+        
+    });
+
+    $("#fnl").click(function () {
+        $("#delivery").hide();
+        $("#me").show();
+
+        
+    });
+
+});
+
+function myFunction(){
+    event.preventDefault();
+    const selectCwf = document.getElementById("micah").value;
+    const selectCwfs = document.getElementById("pist").value;
+    const selectAwf =document.getElementById("picah").value;
+    const selectAwfs = document.getElementById("kajol").value;
+
+
+
+
+    alert("you have selected " + ""+ selectCwf +", "+ selectCwfs +", "+ selectAwf +", "+ selectAwfs)
+}
+
+function myPutton(){
+    event.preventDefault();
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var location = document.getElementById("lct").value;
+    alert(name + " your order of has been recieved and will be delivered at " + location + " within a short period of time or we will email you through " + email)
+}
