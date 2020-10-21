@@ -57,7 +57,7 @@ nav{
         padding-top: 2%;
         background-color: burlywood;
     }
-    body{
+    .cont{
         background-image: url("../images/contact.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
