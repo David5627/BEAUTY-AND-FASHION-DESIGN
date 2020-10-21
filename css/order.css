@@ -1,0 +1,21 @@
+
+#us{
+    display: none;
+}
+.we{
+    background-image: url("../images/order.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 580px;
+    color: aliceblue;
+}
+
+#delivery{
+    display: none;
+}
+
+#footer{
+    text-align: center;
+    padding-top: 2%;
+    background-color: burlywood;
+}
