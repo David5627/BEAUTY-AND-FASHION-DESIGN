@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel|Great+Vibes|heebo:500');
+
+#about-us {
+    display: flex;
+    flex-flow: row wrap;
+    min-height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#about-us article {
+    flex: 1;
+    padding: 10px 3vw 50px;
+    max-width: 980px;
+    margin: auto;
+    border: 20px solid white;
+    background-color: #FFF3d5;
+}
+h2 {
+    font-family: 'heebo', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    max-width: 320px;
+    margin: 0 auto;
+    padding-top: 62px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    letter-spacing: .10em;
+}
+p{
+    font-family: 'Abel', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 2em;
+}
+#about-us figure {
+    flex: 1 auto;
+    text-align: center;
+    height: 560px;
+    margin: 0 auto;
+    background: url(../images/fashion1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* transition: background 1s ; */
+}
+#about-us figure:hover {
+    background: url(../images/fashion2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1 auto;
+    text-align: center;
+    height: 560px;
+    margin: 0 auto;
+}
+#about-us article{
+    margin: 1%;
+}
+h2{
+    padding-bottom: 30px;
+}
+
+
+
+
