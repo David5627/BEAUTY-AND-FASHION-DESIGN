@@ -20,7 +20,10 @@ function showSlides() {
     if (slideIndex > slides.length) {slideIndex = 1}
     slides[slideIndex-1].style.display = "block";
     setTimeout(showSlides, 1500); 
+
+
   }
+
   function myFunction() {
     event.preventDefault
     var name = document.getElementById("name").value;
@@ -29,6 +32,8 @@ function showSlides() {
 
     alert(name + " Your feedback has been received and will reach out to you through" + email);
   };
+
+
 
 $(document).ready(function () {
     $("#final").click(function () {
@@ -82,7 +87,7 @@ function maFunction(){
     event.preventDefault();
     const selectCwf = document.getElementById("micah").value;
     const selectCwfs = document.getElementById("pist").value;
-    const selectAwf =document.getElementById("picah").value;
+    const selectAwf = document.getElementById("picah").value;
     const selectAwfs = document.getElementById("kajol").value;
 
 
