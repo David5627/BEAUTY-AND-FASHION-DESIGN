@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel|Great+Vibes|heebo:500');
-
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
 #about-us {
     display: flex;
     flex-flow: row wrap;
