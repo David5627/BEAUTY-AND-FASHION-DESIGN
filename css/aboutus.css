@@ -16,6 +16,7 @@
     margin: auto;
     border: 20px solid white;
     background-color: #FFF3d5;
+    height: 650px;
 }
 h2 {
     font-family: 'heebo', sans-serif;
@@ -67,6 +68,18 @@ h2{
     padding-top: 2%;
     background-color: burlywood;
 }
+
+nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 20px;
+  margin-top: 20px;
+  text-align:center ;
+  /* color: #FFF3d5;
+  background: red; */
+
+}
+
 
 
 
