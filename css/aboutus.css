@@ -29,7 +29,7 @@ h2 {
     margin-bottom: 40px;
     letter-spacing: .10em;
 }
-p{
+#about-us p{
     font-family: 'Abel', sans-serif;
     font-weight: 400;
     font-size: 25px;
@@ -40,7 +40,7 @@ p{
 #about-us figure {
     flex: 1 auto;
     text-align: center;
-    height: 560px;
+    height: 600px;
     margin: 0 auto;
     background: url(../images/fashion1.png);
     background-position: center;
@@ -53,7 +53,7 @@ p{
     background-position: center;
     flex: 1 auto;
     text-align: center;
-    height: 560px;
+    height: 600px;
     margin: 0 auto;
 }
 #about-us article{
@@ -61,6 +61,11 @@ p{
 }
 h2{
     padding-bottom: 30px;
+}
+#footer{
+    text-align: center;
+    padding-top: 2%;
+    background-color: burlywood;
 }
 
 
