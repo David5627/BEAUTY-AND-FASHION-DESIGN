@@ -19,3 +19,13 @@
     padding-top: 2%;
     background-color: burlywood;
 }
+
+nav ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 20px;
+  margin-top: 20px;
+  text-align:center ;
+
+}
+
